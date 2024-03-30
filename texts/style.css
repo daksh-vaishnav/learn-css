@@ -15,7 +15,7 @@ background-color: lightblue;
 }
 
 
-.spna-inline {
+.spna-inline{
     display: inline;
     background-color: blanchedalmond;
     padding: 50px;
@@ -24,5 +24,5 @@ background-color: lightblue;
 .spna-inline-block {
     display: inline-block;
     background-color: blanchedalmond;
-    padding: 50px;
+    padding: 40px;
 }
