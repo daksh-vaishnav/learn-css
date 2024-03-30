@@ -28,3 +28,9 @@ body {
     float: right;
     margin-left: 2rem;
 }
+
+.clear {
+    clear: both;
+    /* clear: left;
+    clear: right; */
+}
