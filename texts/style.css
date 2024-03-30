@@ -1,28 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
 
 body {
     font-size: 2rem;
     font-family: "Roboto", sans-serif;
 }
 
-p {
-background-color: lightblue;
+ul {
+    list-style-type: none;
+    background-color: black;
+    text-align: right;
+    padding: 0.5rem;
 }
 
-
-.spna-inline{
-    display: inline;
-    background-color: blanchedalmond;
-    padding: 50px;
-}
-
-.spna-inline-block {
+li {
     display: inline-block;
-    background-color: blanchedalmond;
-    padding: 40px;
+    margin-inline: 0.5rem;
+}
+
+li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+li a:hover,
+li a:focus {
+    text-decoration: underline;
 }
