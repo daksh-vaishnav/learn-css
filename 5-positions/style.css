@@ -1,47 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background: #584949;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: #584949;
 }
 
 body {
-    font-size: 2rem;
-    font-family: "Roboto", sans-serif;
-    padding: 2rem;
-    min-height: 200vh;
+	font-size: 2rem;
+	font-family: "Roboto", sans-serif;
+	padding: 2rem;
+	min-height: 200vh;
 }
 .outer-container {
-    border: 2px dotted salmon;
-    width: 75vw;
-    min-height: 85vh;
-    margin: 5rem auto;
-    position: relative;
+	border: 2px dotted salmon;
+	width: 75vw;
+	min-height: 85vh;
+	margin: 5rem auto;
+	position: relative;
 }
 .inner-container {
-    border: 2px solid #00f;
-    margin: 10rem;
-    height: 80%;
+	border: 2px solid #00f;
+	margin: 10rem;
+	height: 80vh;
 }
 
 .box {
-    width: 150px;
-    height: 150px;
-    color: #fff;
-    padding: 1rem;
+	width: 150px;
+	height: 150px;
+	color: #fff;
+	padding: 1rem;
 }
 
 .absolute {
-    background-color: #00f;
-    position: absolute;
-    top: 0;
-    left: 0;
+	background-color: #00f;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 .relative {
-    background-color: #f00;
-    position: relative;
-    top: 100px;
-     left: 100px;
+	background-color: #f00;
+	position: relative;
+	top: 10px;
+	left: 110px;
+}
+
+.fixed {
+	background-color: green;
+	position: fixed;
+	z-index: 0;
+	top: 50%;
+	left: 50%;
+}
+
+.sticky {
+	background-color: #0bb;
+	position: sticky;
+	top: 0;
 }
