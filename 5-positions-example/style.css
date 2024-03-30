@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    color: cadetblue;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: #584949;
+}
+
+body {
+	font-size: 2rem;
+	font-family: "Roboto", sans-serif;
+	padding: 2rem;
+	min-height: 200vh;
+}
+
+section {
+    height: 100vh;
+}
+
+.footer {
+    text-align: center;
+    background-color: #000;
+    position: sticky;
+    border-radius: 30px;
+}
+
+.footer ul li {
+    display: inline-block;
+    font-size: 3rem;
+    margin: 2rem;
+}
+
+.footer ul li a {
+    text-align: center;
+    text-decoration: none;
+    color: antiquewhite;
+}
+.footer ul li a:hover,
+.footer ul li a:focus  {
+    text-decoration: underline;
+    color: aquamarine;
+}
+
+
+.socials {
+    position: fixed;
+    top: 35vh;
+    left: 0;
+    background-color: aqua;
+    opacity: 0.5;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    z-index: 1000;
+    max-height: 20rem;
+}
+
+.socials div {
+    height: 3rem;
+    width: 3rem;
+    margin-block: 1.5rem;
+}
+
+.github {
+    background-image: url("./github.svg");
+    background-repeat: no-repeat;
+}
+
+.x {
+    background-image: url("./x.svg");
+    background-repeat: no-repeat;
+}
+
+.instagram {
+    background-image: url("./instagram.svg");
+    background-repeat: no-repeat;
+}
+
+.linkedin {
+    background-image: url("./linkedin.svg");
+    background-repeat: no-repeat;
+}
