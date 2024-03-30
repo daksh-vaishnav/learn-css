@@ -14,11 +14,11 @@ html {
 body {
 	font-size: 2rem;
 	font-family: "Roboto", sans-serif;
-	padding: 2rem;
 	min-height: 200vh;
 }
 
 section {
+    padding: 2rem;
     height: 100vh;
 }
 
@@ -26,7 +26,8 @@ section {
     text-align: center;
     background-color: #000;
     position: sticky;
-    border-radius: 30px;
+    padding: 0 !important;
+    width: 100%;
 }
 
 .footer ul li {
@@ -51,20 +52,24 @@ section {
     position: fixed;
     top: 35vh;
     left: 0;
-    background-color: aqua;
-    opacity: 0.5;
+    background-color: rgba(65, 105, 225, 0.506);
+    padding-top: 0;
+    padding-bottom: 0;
     padding-left: 1%;
     padding-right: 1%;
     border-top-right-radius: 2rem;
     border-bottom-right-radius: 2rem;
     z-index: 1000;
-    max-height: 20rem;
+    max-height: 10em;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .socials div {
     height: 3rem;
     width: 3rem;
-    margin-block: 1.5rem;
+    margin: auto;
 }
 
 .github {
