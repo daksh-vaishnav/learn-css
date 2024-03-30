@@ -8,9 +8,11 @@
 body {
     font-size: 2rem;
     font-family: "Roboto", sans-serif;
+    padding: 2rem;
 }
 
 .column {
     column-count: 4;
     column-width: 200px;
+    column-rule: 3px solid #333;
 }
