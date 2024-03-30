@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: #584949;
 }
 
 body {
@@ -38,7 +39,9 @@ body {
     left: 0;
 }
 
-/* .relative {
+.relative {
     background-color: #f00;
     position: relative;
-} */
+    top: 100px;
+     left: 100px;
+}
