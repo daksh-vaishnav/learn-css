@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+}
+
+p {
+background-color: lightblue;
+}
+
+
+.spna-inline {
+    display: inline;
+    background-color: blanchedalmond;
+    padding: 50px;
+}
+
+.spna-inline-block {
+    display: inline-block;
+    background-color: blanchedalmond;
+    padding: 50px;
+}
