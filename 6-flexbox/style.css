@@ -8,4 +8,56 @@
 body {
     font-size: 2rem;
     font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+    padding:1.25rem ;
+}
+
+.container {
+    max-width: 800px;
+    min-height: 400px;
+    margin-inline: auto;
+    border: 1px solid #000;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    /* gap: 1px; */
+
+    /* align content used when multi line flexbox is there (more than one row) */
+    align-content: space-evenly;
+
+    /* flex-direction: row-reverse;
+    flex-wrap: wrap-reverse; */
+
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+
+    /* short hand for flex-direction and wrap */
+    flex-flow: row-reverse wrap;
+
+}
+
+.box {
+    /* min-width: 100px; */
+    height: 100px;
+    background-color: #000;
+    color: aliceblue;
+    font-size: 2rem;
+    padding: 0.5rem;
+
+    /* this is center content of div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    flex-shrink: 1;
+    flex-basis: 250px;
+
+}
+
+.box:nth-child(2) {
+    flex-shrink: 2;
+    order: 0;
 }
